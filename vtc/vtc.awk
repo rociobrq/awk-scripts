@@ -20,7 +20,7 @@ BEGIN {
 		}
         }
 
-       record[id] = chr "\t" start[id] "\t" end[id] "\t" gene;
+	record[id] = chr "\t" start[id] "\t" end[id] "\t" gene;
 } 
 END {
 	for (i in record) {
